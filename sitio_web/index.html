@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mi primera página con Docker</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#101d2d;color:#eef5fb;font-family:Arial,sans-serif}
+header{padding:18px 7%;background:#14243a;border-bottom:1px solid #31506a}
+header b{font-size:1.2rem;color:#5bd6d0}
+main{max-width:1000px;margin:48px auto;padding:0 22px}
+.tag{color:#65d6c2;font-weight:bold;letter-spacing:2px}
+h1{font-size:clamp(2.2rem,6vw,4rem);margin:14px 0}
+.lead{font-size:1.12rem;line-height:1.65;color:#c4d3df;max-width:680px}
+.button{display:inline-block;margin-top:12px;padding:12px 20px;border-radius:30px;background:#087fc4;color:white;font-weight:bold}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px;margin:34px 0}
+.card{padding:22px;border-radius:15px;background:#1b3045;border:1px solid #31506a}
+.card h2{color:#65d6c2;font-size:1.1rem}
+footer{text-align:center;margin:40px 0 10px;color:#9db0bf}
+</style>
+</head>
+<body>
+<header><b>Mi Web con Docker</b></header>
+<main>
+<div class="tag">HITO 4 · SISTEMAS OPERATIVOS</div>
+<h1>¡Hola! Mi primera página web con Docker</h1>
+<p class="lead">Este sitio se ejecuta dentro de un contenedor Docker utilizando la imagen ligera de Nginx con Alpine Linux.</p>
+<span class="button">Práctica del Hito 4</span>
+<section class="cards">
+<article class="card"><h2>Página personalizada</h2><p>Contenido creado por ti y publicado con Docker.</p></article>
+<article class="card"><h2>Ligera y eficiente</h2><p>Nginx sirve esta página HTML sencilla.</p></article>
+<article class="card"><h2>Objetivo</h2><p>Comprender cómo Docker ejecuta aplicaciones de manera aislada.</p></article>
+</section>
+<footer>Alpine Linux · Docker · Nginx</footer>
+</main>
+</body>
+</html>
